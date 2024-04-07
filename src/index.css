@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply flex flex-col items-center bg-gray-500;
+}
+
+.custom-text-shadow {
+	text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+}
+
+.custom-button {
+	@apply text-2xl font-bold px-5 py-2.5 m-1 min-w-28 rounded-lg cursor-pointer text-white transition-colors duration-500 ease-in-out;
+}
